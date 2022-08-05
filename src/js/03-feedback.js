@@ -23,6 +23,7 @@ function hendelClickSubmit(ev) {
 
   refs.textArea.value = '';
   refs.input.value = '';
+  localStorage.removeItem(FEADBACKFORM);
 }
 
 function handleFormInput() {
